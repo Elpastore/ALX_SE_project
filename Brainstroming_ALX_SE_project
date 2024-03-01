@@ -1,0 +1,46 @@
+3. Types de contenu:
+  -Genre
+    -audio (titre, auteur, longueur, rates) ==> podcast, music
+    -videos (titre, auteur, longueur, rates)
+    -Lectures (titre, auteur, longueur, rates) ==> news, cultures, post
+4. Recommandation
+Outils 
+1. Database( users and content)
+	- Users parties( login system, playlist, contenu)
+	- Song and lecture
+2. API
+3. Authentification system
+4. Frontend part
+	-Home page
+	- User page
+	- Bibliotheque page
+		- Sound and videos page(title, longueur, rate, author)
+	- Authentification page( Inscription and login)
+	- Podcast page(audio and lecture part)
+	
+
+Roles:
+1. Backend side
+	-code/logic( detail below)
+	-Database construction
+	-Server configuration(CDN , Ngnix ,Static file(htlm),load balancer, firewall, SSL, database_management)
+	-Deployement
+2. Frontend side
+	- Interface of the application(landing page, user_page, song page etc)
+NB: Coté users nous pouvons appliqué jquery and AJAX pour afficher les différentes contenu des users(song, postcast, lecture, playlist)
+
+II. Research & Project approval (Part 1)
+1. Title of the projecta and tag line: Africa_connection
+This project is about an african content about music, video and podcast(audio and lecture). It's an audio video collection application 
+specific to Africa and sharing African culture(Music, history and current affairs). 
+In addition to audio-visual content, a reading section will be integrated to enable the sharing of written
+content (which could be of interest to deaf-mutes and other reading enthusiasts).
+The main aim of this application is to share African content and culture. It will also help people over the Africa continent to 
+connect each other(like facebook, tweeter) and will allow peaple to be together depending on their preference
+
+2. Team Members and role
+Team members are Abdoulaye, iAbas and Wisdom.
+This project will have two main aspect, the backend and frontent. So for each aspect deepending on the team member ability task will
+be assign.
+3. Technology
+Python, HTML & CSS, javascript, Flask framework, SQLAlquemy.
